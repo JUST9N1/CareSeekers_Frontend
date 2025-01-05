@@ -4,7 +4,7 @@ import Error from "../../components/Error/Error";
 import Loader from "../../components/Loader/Loading";
 import { BASE_URL } from "../../config";
 import useFetchData from "../../hooks/useFetchData";
-import WorkerAbout from "../../pages/Dcotors/WorkerAbout";
+import WorkerAbout from "../../pages/Workers/WorkerAbout";
 import Tabs from "./Tabs";
 import Profile from "./Profile";
 import Appointments from './Appointments';
