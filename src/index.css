@@ -13,6 +13,30 @@
         @apply max-w-full w-[1440px] px-5 mx-auto;
     }
 
+    .logo {
+       padding-top: 25%;
+        width: 400px;
+        height: auto; /* Maintain aspect ratio */
+      }
+      
+      @media (max-width: 1024px) {
+        .logo {
+          width: 150px; /* Adjust logo size for medium screens */
+        }
+      }
+      
+      @media (max-width: 768px) {
+        .logo {
+          width: 120px; /* Adjust logo size for smaller screens */
+        }
+      }
+      
+      @media (max-width: 480px) {
+        .logo {
+          width: 100px; 
+        }
+      }      
+
     .btn {
         @apply bg-primaryColor py-[15px] px-[35px] rounded-[50px] text-white font-[600] mt-[38px];
     }

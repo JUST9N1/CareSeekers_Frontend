@@ -5,7 +5,6 @@ import "../../App.css";
 import logo from "../../assets/images/logo.png";
 import { AuthContext } from "../../contexts/AuthContext";
 import "../../index.css";
-import worker from "../../assets/images/worker-img01.png";
 
 const navLinks = [
   {
@@ -54,10 +53,10 @@ const Header = () => {
   return (
     <header className="header flex items-center" ref={headerRef}>
       <div className="container">
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between gap-8">
           {/* =================== logo =============== */}
-          <div>
-            <img src={logo} style={{ width: "200px", height: "150px" }} alt="App Logo" />
+          <div className="logo-container flex items-center">
+            <img src={logo} className="logo" alt="App Logo" />
           </div>
 
           {/* ====================== menu ======================== */}
