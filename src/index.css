@@ -16,12 +16,12 @@
     .logo {
        padding-top: 25%;
         width: 400px;
-        height: auto; /* Maintain aspect ratio */
+        height: auto; 
       }
       
       @media (max-width: 1024px) {
         .logo {
-          width: 150px; /* Adjust logo size for medium screens */
+          width: 150px; 
         }
       }
       

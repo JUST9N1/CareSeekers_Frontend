@@ -12,7 +12,7 @@ import {
 import React, { useContext, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
-import registerImage from "../assets/register.png";
+import registerImage from "../assets/login3.jpeg";
 import { BASE_URL } from "../config";
 import { AuthContext } from "../contexts/AuthContext";
 

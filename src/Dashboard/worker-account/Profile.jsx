@@ -44,14 +44,23 @@ const Profile = ({ workerData }) => {
 
   const handleFileInputChange = async (e) => {
     const file = e.target.files[0];
-    const data = await uploadImageToCloudinary(file);
-
-    setFormData({ ...formData, photo: data?.url });
-  };
+    if (!file) return; // Ensure a file is selected
+    try {
+      const data = await uploadImageToCloudinary(file);
+      console.log("Uploaded image URL:", data?.url);
+      if (data?.url) {
+        setFormData({ ...formData, photo: data.url });
+      } else {
+        toast.error("Failed to upload image.");
+      }
+    } catch (error) {
+      console.error("Error uploading image:", error);
+      toast.error("An error occurred while uploading the image.");
+    }
+  };  
 
   const updateProfileHandler = async (e) => {
     e.preventDefault();
-    // Add your profile update logic here
 
     try {
       const res = await fetch(`${BASE_URL}/workers/${workerData._id}`, {
@@ -240,16 +249,12 @@ const Profile = ({ workerData }) => {
                 className="form__input py-3.5"
               >
                 <option value="">Select</option>
-                <option value="surgeon">Surgeon</option>
-                <option value="neurologist">Neurologist</option>
-                <option value="dermatologist">Dermatologist</option>
-                <option value="cardiologist">Cardiologist</option>
-                <option value="psychiatrist">Psychiatrist</option>
-                <option value="pulmonologist">Pulmonologist</option>
-                <option value="general">General</option>
-                <option value="urologist">Urologist</option>
-                <option value="dentist">Dentist</option>
-                <option value="orthopaedic">Orthopaedic</option>
+                <option value="Aged Care">Aged Care</option>
+                <option value="Disability Care">Disability Care</option>
+                <option value="Personal Care">Personal Care</option>
+                <option value="Travel and Transport">Travel and Transport</option>
+                <option value="Gardening">Gardening</option>
+                <option value="Companionship">Companionship</option>
               </select>
             </div>
 

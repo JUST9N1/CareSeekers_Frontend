@@ -166,16 +166,12 @@ const AdminPanel = () => {
             ]}
           >
             <Select>
-              <option value="surgeon">Surgeon</option>
-              <option value="neurologist">Neurologist</option>
-              <option value="dermatologist">Dermatologist</option>
-              <option value="cardiologist">Cardiologist</option>
-              <option value="psychiatrist">Psychiatrist</option>
-              <option value="pulmonologist">Pulmonologist</option>
-              <option value="general">General</option>
-              <option value="urologist">Urologist</option>
-              <option value="dentist">Dentist</option>
-              <option value="orthopaedic">Orthopaedic</option>
+                <option value="Aged Care">Aged Care</option>
+                <option value="Disability Care">Disability Care</option>
+                <option value="Personal Care">Personal Care</option>
+                <option value="Travel and Transport">Travel and Transport</option>
+                <option value="Gardening">Gardening</option>
+                <option value="Companionship">Companionship</option>
             </Select>
           </Form.Item>
           <Form.Item
