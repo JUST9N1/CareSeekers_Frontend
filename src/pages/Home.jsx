@@ -28,13 +28,14 @@ const Home = () => {
             <div className="w-full lg:w-1/2">
               <div className="lg:w-[570px]">
                 <h1 className="text-2xl leading-tight text-headingColor font-bold md:text-4xl md:leading-tight">
-                  We help patients live a healthy, longer life.
+                  Empowering Patients for a Healthier Tomorrow
                 </h1>
                 <p className="text__para mt-4">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-                  odio et distinctio rem, repudiandae quod accusantium placeat
-                  excepturi odit vel earum sunt, reprehenderit deserunt ratione.
-                  Veritatis, ducimus. Voluptas, sed iusto.
+                  We are dedicated to enhancing your well-being by providing
+                  seamless access to personalized caregiving solutions. Our
+                  platform connects you with trusted caregivers, ensuring
+                  compassionate support tailored to your unique needs. Together,
+                  we help you achieve a healthier, happier, and longer life.
                 </p>
                 <button className="btn mt-4">Request an Appointment</button>
               </div>
