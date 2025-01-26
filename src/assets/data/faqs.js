@@ -1,27 +1,27 @@
 export const faqs = [
   {
-    question: "What is your medical care?",
+    question: "What services does CareSeekers provide?",
     content:
-      "One Medical was founded on a better model of care one designed around patients needs that provides a higher level of quality and service affordably. We do this through innovative design, excellent customer service, and the efficient use of technology.",
+      "CareSeekers offers a range of services including aged care, disability support, in-home care, respite care, palliative care, and specialized caregiver support to meet diverse caregiving needs.",
   },
   {
-    question: "What happens if I need to go a hospital?",
+    question: "How do I find a caregiver through the platform?",
     content:
-      "One Medical was founded on a better model of care one designed around patients needs that provides a higher level of quality and service affordably. We do this through innovative design, excellent customer service, and the efficient use of technology.",
+      "You can search for caregivers by specifying your preferences, such as the type of care needed, caregiver ratings, and specializations. Our system matches you with caregivers that best fit your requirements.",
   },
   {
-    question: "What happens if I need to go a hospital?",
+    question: "What happens after I book a caregiver?",
     content:
-      "One Medical was founded on a better model of care one designed around patients needs that provides a higher level of quality and service affordably. We do this through innovative design, excellent customer service, and the efficient use of technology.",
+      "Once a booking is confirmed, you can view the details in the 'My Appointments' section. The caregiver will provide the service on the scheduled date and time, and you will have the option to leave feedback afterward.",
   },
   {
-    question: "Can I visit your medical office?",
+    question: "Is the payment process secure?",
     content:
-      "One Medical was founded on a better model of care one designed around patients needs that provides a higher level of quality and service affordably. We do this through innovative design, excellent customer service, and the efficient use of technology.",
+      "Yes, all payments are securely processed through our integrated Stripe system, ensuring your transactions are safe and hassle-free.",
   },
   {
-    question: "Does you provide urgent care?",
+    question: "Can I leave a review for the caregiver?",
     content:
-      "One Medical was founded on a better model of care one designed around patients needs that provides a higher level of quality and service affordably. We do this through innovative design, excellent customer service, and the efficient use of technology.",
+      "Absolutely! After the service is completed, you will be prompted to rate the caregiver and provide optional feedback. This helps improve the platform and ensures quality service for all users.",
   },
 ];
